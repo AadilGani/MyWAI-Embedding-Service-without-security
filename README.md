@@ -1,7 +1,7 @@
 # MyWAI-Embedding-Service-without-security
 This repository contains a FastAPI-based embedding service for MyWAI, designed to process and store embeddings from various file types (PDF, DOCX, TXT, CSV, XLSX) using OllamaEmbeddings. The service reads files, splits the text into chunks, generates embeddings, and stores them in a PostgreSQL database with vector support.
 
-# Note: This service is currently without security measures. It is intended for development and testing purposes only. Do not use this service in a production environment without implementing appropriate security features.
+## Note: This service is currently without security measures. It is intended for development and testing purposes only. Do not use this service in a production environment without implementing appropriate security features.
 
 # Features
 ## Supports multiple file types: PDF, DOCX, TXT, CSV, XLSX.
@@ -27,7 +27,7 @@ pgvector extension for PostgreSQL
 # Installation
 Clone the repository:
 
-git clone https://github.com/yourusername/mywai-embedding-service.git
+https://github.com/AadilGani/MyWAI-Embedding-Service-without-security.git
 
 # Create a virtual environment and activate it:
 python -m venv venv
